@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900');
+body {
+ font-family: 'Work Sans' !important;
+}
+.V_Hotel label {
+   font-weight: 500;
+}
+
+
+table tr th {
+  font-weight: 600;
+}
+.admin-table {
+  border: 1px solid #ddd;
+}
+
+.admin-table tr td img {
+  width: 40px;
+}
+
+.admin-table {
+  border: 1px solid #ddd;
+}
+
+.admin-table tr td img {
+  width: 40px;
+}
+
+.VCH_navbar {
+  border-radius: 0;
+  background-color: #2c3b41;
+  height: 64px;
+  border: none;
+}
+
+.VCH_navbar .navbar-header a {
+  display: block;
+  padding: 0;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+  color: #ffffff;
+  display: block;
+  padding: 1.5rem 2rem;
+  position: relative;
+  height: 2.5rem;
+}
+
+.navbar-inverse .navbar-nav .nav-link .fa-bell-o {
+  font-size: 24px;
+}
+
+.dropdown-menu-lg .dropdown-item {
+  padding: .5rem 1rem;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  text-decoration: none;
+}
+
+.navbar-badge {
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  font-size: .6rem;
+  font-weight: 300;
+  padding: 2px 4px;
+}
+
+.badge-warning {
+  color: #1f2d3d;
+  background-color: #ffc107;
+}
+
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
+
+.fa-caret-down {
+  transition: all .4s ease;
+}
+
+.active .fa-caret-down {
+  transform: rotate(180deg);
+}
+
+.panel-title a {
+  text-decoration: none;
+}
+
+.order-received ul {
+  padding: 0;
+}
+
+.order-received ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.order-received ul li.sl-no {
+  width: 40px;
+  height: 40px;
+  background-color: #ff5200;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 11px;
+}
+
+.order-received ul li.sl-no.color1 {
+  background-color: #f0ad4e;
+}
+
+.order-received ul li.sl-no.color2 {
+  background-color: #ff5169;
+}
+
+.order-received ul li.sl-no.color3 {
+  background-color: #5bc0de;
+}
+
+.order-received ul li.acc-label span:first-child {
+  color: #999;
+}
+
+.order-received ul li.acc-label span:last-child {
+  text-shadow: 0px 1px #999;
+}
+/* --------------------------------------------------- SIDEBAR STYLE ----------------------------------------------------- */
+.ml-auto li {
+  padding: 5px;
+}
+
+.ml-auto li.logout {
+  margin-top: 14px;
+}
+
+.ml-auto li a {
+  text-decoration: none;
+}
+
+.ml-auto li a img {
+  width: 18px;
+}
+
+.row.section {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.sidebar {
+  width: 226px;
+  background: #2c3b41;
+  color: #fff;
+  transition: all 0.3s;
+  margin-top: 64px;
+  padding: 0;
+  position: fixed;
+  height: calc(100vh - 64px);
+}
+
+.sidebar .sidebar-header {
+  width: 100%;
+  background: #1a2226;
+  padding: 20px 10px;
+  font-size: 20px;
+}
+
+.sidebar ul li a {
+  padding: 15px 10px;
+  font-size: 14px;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar ul li.active a, .sidebar ul li.active a:hover {
+  background: #e8a459;
+}
+
+.sidebar ul li a img {
+  width: 18px;
+  height: 18px;
+  vertical-align: sub;
+  margin-right: 6px;
+}
+
+.sidebar ul li a:hover {
+  color: #fff;
+  background: #1e282c;
+}
+
+.main_content {
+  width: calc(100% - 228px);
+  padding: 0 15px;
+  margin-top: 84px;
+}
+
+
+/*Login Page Css Start*/
+body#LoginForm {
+  background-image: url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.form-heading {
+  color: #fff;
+  font-size: 23px;
+}
+
+.panel h2 {
+  color: #444444;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.panel p {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom: 10px;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+.forgot {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+
+.back {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.back a {
+  color: #444444;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/*Login Page CSS End*/
+/*Logout Page CSS Start*/
+.cd-popup-container .cd-buttons li {
+  float: left;
+  width: 50%;
+}
+
+.cd-popup-container .cd-buttons a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: background-color .2s;
+  -moz-transition: background-color .2s;
+  transition: background-color .2s;
+}
+
+.cd-popup-container .cd-buttons li:first-child a {
+  background: #fc7169;
+  border-radius: 0 0 0 .25em;
+}
+
+.no-touch .cd-popup-container .cd-buttons li:first-child a:hover {
+  background-color: #fc8982;
+}
+
+.cd-popup-container .cd-buttons li:last-child a {
+  background: #b6bece;
+  border-radius: 0 0 .25em 0;
+}
+
+#logout .modal-body {
+  padding: 0;
+  display: table;
+  width: 100%;
+}
+
+#logout .modal-body p {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 20px;
+}
+
+#logout .modal-body ul {
+  padding: 0;
+}
+
+#logout .modal-body ul li {
+  list-style: none;
+  text-align: center;
+}
+
+#logout .modal-body ul li a {
+  text-decoration: none;
+}
+/*Logout Page CSS End*/
+.admin-table .order-save {
+  display: none;
+}
+.input-medium.order-qty {
+  width: 40px;
+}
+.input-medium.order-qty.after-edit {
+  border: none;
+  outline: 0;
+  pointer-events: none;
+  background: transparent;
+  font-weight: bold;
+  color: #31708f;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.modal-footer .noPadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.table>tbody>tr>td, .table>tfoot>tr>td, .table>thead>tr>td {
+    padding: 0px 8px;
+    vertical-align: middle;
+}
+#myTable.table>tbody>tr>td, .table>tfoot>tr>td, .table>thead>tr>td {
+    padding: 8px;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+  border-right:0; 
+  box-shadow:0 0 0; 
+  border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.admin-table.all-order-table tr th, .admin-table.all-order-table tr td { 
+    border-right: 1px solid #f5ecec;
+    vertical-align: middle;
+}
+.all-order-table tr th:last-child, .all-order-table tr td:last-child { 
+    border-right: none;
+}
+.dash .row {
+    display: table-cell;
+}
