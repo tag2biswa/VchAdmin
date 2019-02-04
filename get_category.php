@@ -7,16 +7,21 @@
 			header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 			require_once __DIR__ . '/db_config.php';
 			$con = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD,DB_DATABASE) or die(mysqli_connect_error());
+			date_default_timezone_set("Asia/Kolkata");
+			$cr_time = date("H:i:s");
 			$response = array();
 			$result = mysqli_query($con,"SELECT * FROM `category` WHERE `c_isactive` = 1");
 			if (mysqli_num_rows($result) > 0) {
 					$response["category"] = array();
 					while ($obj=mysqli_fetch_object($result)){
-						$category = array();
-						$category["cat_id"] = $obj->cat_id;
-						$category["cat_name"] = $obj->cat_name;
-						$category["cat_img"] = $obj->cat_img;
-						array_push($response["category"], $category);
+						//if (($cr_time <= date("H:i:s",strtotime($obj->last_order_time))) || (strcmp($obj->last_order_time, "00:00:00") == 0)) {
+							$category = array();
+							$category["cat_id"] = $obj->cat_id;
+							$category["cat_name"] = $obj->cat_name;
+							$category["cat_img"] = $obj->cat_img;
+							array_push($response["category"], $category);
+						//}
+						
 					}
 					$response["success"] = true;
 					$response["message"] = "Menu categories found.";

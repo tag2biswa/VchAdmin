@@ -1068,3 +1068,22 @@
 [24-Jan-2019 18:30:58 UTC] PHP Notice:  Undefined index: cat_id in /home/uhnnt8q935dr/public_html/editCategory.php on line 4
 [24-Jan-2019 18:36:13 UTC] PHP Notice:  Undefined index: cat_id in /home/uhnnt8q935dr/public_html/editCategory.php on line 4
 [24-Jan-2019 18:53:09 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[24-Jan-2019 19:16:42 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[25-Jan-2019 15:57:49 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[26-Jan-2019 15:42:46 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[26-Jan-2019 15:57:50 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 07:53:27 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 07:53:35 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 07:53:52 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 07:54:15 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 07:54:58 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 07:56:26 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[27-Jan-2019 14:49:36 UTC] PHP Notice:  Undefined index: startDate in /home/uhnnt8q935dr/public_html/allorderlist.php on line 176
+[31-Jan-2019 09:12:55 Asia/Kolkata] PHP Notice:  Undefined index: order_id in /home/uhnnt8q935dr/public_html/editOrder.php on line 158
+[31-Jan-2019 09:12:55 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/uhnnt8q935dr/public_html/editOrder.php on line 160
+[31-Jan-2019 03:43:27 UTC] PHP Notice:  Undefined index: room_num in /home/uhnnt8q935dr/public_html/deleteRoom.php on line 4
+[31-Jan-2019 03:54:04 UTC] PHP Notice:  Undefined index: dish_id in /home/uhnnt8q935dr/public_html/activeDish.php on line 4
+[31-Jan-2019 03:54:04 UTC] PHP Notice:  Undefined index: dish_active in /home/uhnnt8q935dr/public_html/activeDish.php on line 5
+[31-Jan-2019 17:23:54 UTC] PHP Notice:  Undefined index: cat_id in /home/uhnnt8q935dr/public_html/editCategory.php on line 4
+[31-Jan-2019 17:26:40 UTC] PHP Notice:  Undefined index: cat_id in /home/uhnnt8q935dr/public_html/editCategory.php on line 4
+[31-Jan-2019 17:28:47 UTC] PHP Notice:  Undefined index: cat_id in /home/uhnnt8q935dr/public_html/editCategory.php on line 4

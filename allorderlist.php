@@ -18,6 +18,7 @@ if(empty($_SESSION['id'])){
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdn.rawgit.com/atatanasov/gijgo/master/dist/combined/js/gijgo.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="script/pullOrder.js"></script>
         <style type="text/css">
         	.datepickerDiv {
         		width: 160px;
@@ -107,6 +108,11 @@ if(empty($_SESSION['id'])){
                     });
                 });
 
+
+                $('#menu_save').click(function(){
+                    
+                });
+
             });
         </script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -173,7 +179,10 @@ if(empty($_SESSION['id'])){
                         <!-- Menu Listing -->
                         <div class="row form-group">
                             <div class="pull-right text-right" style="padding-right: 15px;">
-                                <a href="http://vchbillings.info/orderdatapull.php?startdate="<?php echo $_GET['startDate']; ?> class="btn btn-info"><span class="glyphicon glyphicon-share"></span> Export to Excel</a>
+                            	<a class="pull_order" href="javascript:void(0)">
+				                  <div class="btn btn-info"><span class="glyphicon glyphicon-share"></span> Export to Excel</div>
+				                </a>
+                                 
                             </div>
                             <div class="datepickerDiv pull-right">
 
@@ -190,7 +199,7 @@ if(empty($_SESSION['id'])){
                                     <th>Sl No.</th>
                                     <th>Order Id</th>
                                     <th>Room
-                                        <br>Number</th>
+                                    <br>Number</th>
                                     <th>Staff Id</th>
                                     <th>Order Created Time</th>
                                     <th>Order Delivery Time</th>

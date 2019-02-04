@@ -4,7 +4,8 @@ $con = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD,DB_DATABASE) or die(mysqli
 ?>
 
 <?php
-
+$startdate = $_GET['startdate'];
+$enddate = $_GET['enddate'];
 $DB_TBLName = "order_status"; 
 $filename = "orders";  
 $file_ending = "xls";   
